@@ -10,42 +10,41 @@
   <body>
     <div class="calculator">
       <div class="top">
-        <span class="unit">deg</span>
         <section class="screen">
-          <div class="input"></div>
-          <div class="result"></div>
+          <div class="input" id="result"></div>
         </section>
       </div>
       <div class="bottom">
         <section class="keys">
           <div class="column">
-            <span data-key="7">7</span>
-            <span data-key="4">4</span>
-            <span data-key="1">1</span>
-            <span data-key=".">.</span>
+            <span data-key="7" class="number">7</span>
+            <span data-key="4" class="number">4</span>
+            <span data-key="1" class="number">1</span>
+            <span data-key="." class="number">.</span>
           </div>
 
           <div class="column">
-            <span data-key="8">8</span>
-            <span data-key="5">5</span>
-            <span data-key="2">2</span>
-            <span data-key="0">0</span>
+            <span data-key="8" class="number">8</span>
+            <span data-key="5" class="number">5</span>
+            <span data-key="2" class="number">2</span>
+            <span data-key="0" class="number">0</span>
           </div>
 
           <div class="column">
-            <span data-key="9">9</span>
-            <span data-key="6">6</span>
-            <span data-key="3">3</span>
-            <span class="equals-to" data-key="=">=</span>
+            <span data-key="9" class="number">9</span>
+            <span data-key="6" class="number">6</span>
+            <span data-key="3" class="number">3</span>
+            <span class="equals-to" data-key="=" id="equal-btn">=</span>
           </div>
         </section>
 
         <section class="operators">
-          <span class="delete">del</span>
-          <span data-key="÷">÷</span>
-          <span data-key="x">x</span>
-          <span data-key="-">-</span>
-          <span data-key="+">+</span>
+          <span class="delete" id="delete-btn">Del</span>
+          <span id="del-one-el">C</span>
+          <span data-key="/" class="operator">/</span>
+          <span data-key="*" class="operator">*</span>
+          <span data-key="-" class="operator">-</span>
+          <span data-key="+" class="operator">+</span>
         </section>
       </div>
     </main>
